@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+
+    <div class="blog__wrapper">
+        <div class="blog__left-sidebar " id="sidebar">
+            <img class="blog__left-header" src="/assets/images/left-sidebar.jpg" alt="background">
+
+            <div class="blog__left-content">
+
+                <div class="blog__author">
+                    <div class="author__photo">
+                        <img class="author__image" src="/assets/images/author.png" alt="author photo">
+                        <div class="author__info">
+                            <p class="author__name">Kakajan Tayjikov</p>
+                            <p class="author__position">front-end разработчик</p>
+                            <div class="author__links">
+                                <a href="#" class="author__link">
+                                    <img src="/assets/icons/instagram.svg" alt="instagram">
+                                </a>
+                                <a href="#" class="author__link">
+                                    <img src="/assets/icons/vk.svg" alt="vk">
+                                </a>
+                                <a href="#" class="author__link">
+                                    <img src="/assets/icons/pinterest.svg" alt="pinterest">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="author__mobile-line"></div>
+                    <ul class="header__mobile-menu">
+                        <li class="header__menu-item"><a href="#">Principal</a></li>
+                        <li class="header__menu-item"><a href="#">Noticias</a></li>
+                        <li class="header__menu-item"><a href="#">Deportes</a></li>
+                        <li class="header__menu-item"><a href="#">Negocios</a></li>
+                        <li class="header__menu-item"><a href="#">Política</a></li>
+                        <li class="header__menu-item"><a href="#">Salud</a></li>
+                        <li class="header__menu-item"><a href="#">Crimen</a></li>
+                        <li class="header__menu-item"><a href="#">Cultura</a></li>
+                        <li class="header__menu-item header__menu-sub-mobile"><a href="#">categoría<img
+                                    src="/assets/icons/Polygon.png"></a>
+                            <ul class="header__sub-menu">
+                                <li class="header__sub-item"><a href="#">Principal</a></li>
+                                <li class="header__sub-item"><a href="#">Vídeos</a></li>
+                                <li class="header__sub-item"><a href="#">Chile</a></li>
+                                <li class="header__sub-item"><a href="#">Mundo</a></li>
+                                <li class="header__sub-item"><a href="#">Coches</a></li>
+                                <li class="header__sub-item"><a href="#">Tecnología</a></li>
+                                <li class="header__sub-item"><a href="#">Niños</a></li>
+                                <li class="header__sub-item"><a href="#">Reseñas</a></li>
+                                <li class="header__sub-item"><a href="#">Entretenimiento</a></li>
+                                <li class="header__sub-item"><a href="#">Curiosidades</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="header__mobile-menu">
+                        <li class="header__menu-item"><a href="#">Perfil</a></li>
+                    </ul>
+                    <div class="author__line"></div>
+                    <div class="author__description">
+                        <p class="author__text">
+                            Front-end разработчик. Практик верстки сайтов.
+                            Созданием сайтов занимаюсь с 2021 года. Работал в нескольких ИТ компаниях и наработал более
+                            10 000 часов в создании сайтов различной сложности.
+                        </p>
+                    </div>
+                    <div class="author__line"></div>
+                    <div class="author__work-links">
+                        <a href="#" class="author__work-link">Мои работы</a>
+                        <a href="#" class="author__work-link">Написать мне</a>
+                    </div>
+                </div>
+                <div class="blog__popular-news">
+                    <h4 class="blog__title">Popular</h4>
+                    <div class="blog__popular-body">
+                        <p class="blog__popular-text">Hombre sospechoso de doble asesinato detenido en Santiago</p>
+                        <p class="blog__popular-date"><span><svg aria-hidden="true"
+                                    class="css-47d2zd-StyledIcon e6m7o990" focusable="false" height="1em"
+                                    viewBox="0 0 32 32" width="1em">
+                                    <title> Duración </title>
+                                    <path d="M17 15.4V6h-2v10.6l8.8 5.1 1-1.8-7.8-4.5z"></path>
+                                    <path
+                                        d="M16 4A12 12 0 1 1 4 16 12 12 0 0 1 16 4m0-4a16 16 0 1 0 16 16A16 16 0 0 0 16 0z">
+                                    </path>
+                                </svg></span>07.10.2023</p>
+                    </div>
+                    <div class="blog__popular-body">
+                        <p class="blog__popular-text">¿Puedes reconocerlas? Las estrellas en la vida diaria</p>
+                        <p class="blog__popular-date">11.10.2023</p>
+                    </div>
+                    <div class="blog__popular-body">
+                        <p class="blog__popular-text">La magistral actuación de Germán Hernández que lo colocó entre los
+                            grandes del tenis</p>
+                        <p class="blog__popular-date">14.10.2023</p>
+                    </div>
+                </div>
+                <div class="blog__latest-news">
+                    <h4 class="blog__title">Último</h4>
+                    <div class="blog__latest-body">
+                        <img src="/assets/images/side_1.jpg">
+                        <h4>BONITOS Y MORTALES: Los animales peligrosos más adorables del planeta</h4>
+                    </div>
+                    <div class="blog__latest-body">
+                        <img src="/assets/images/side_2.jpg">
+                        <h4>Kate Hudson revela una estrategia efectiva para criar a sus hijos</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="blog__right-sidebar">
+            <header class="header" id="header">
+                <div class="header__wrapper">
+                    <button class="header__burger" id="burger">
+                        <span></span>
+                    </button>
+                    <ul class="header__menu">
+                        <li class="header__menu-item"><a href="#">Principal</a></li>
+                        <li class="header__menu-item"><a href="#">Noticias</a></li>
+                        <li class="header__menu-item"><a href="#">Deportes</a></li>
+                        <li class="header__menu-item"><a href="#">Negocios</a></li>
+                        <li class="header__menu-item"><a href="#">Política</a></li>
+                        <li class="header__menu-item"><a href="#">Salud</a></li>
+                        <li class="header__menu-item"><a href="#">Crimen</a></li>
+                        <li class="header__menu-item"><a href="#">Cultura</a></li>
+                        <li class="header__menu-item header__menu-sub"><a href="#">categoría<img
+                                    src="/assets/icons/Polygon.png"></a>
+                            <ul class="header__sub-menu">
+                                <li class="header__sub-item"><a href="#">Principal</a></li>
+                                <li class="header__sub-item"><a href="#">Vídeos</a></li>
+                                <li class="header__sub-item"><a href="#">Chile</a></li>
+                                <li class="header__sub-item"><a href="#">Mundo</a></li>
+                                <li class="header__sub-item"><a href="#">Coches</a></li>
+                                <li class="header__sub-item"><a href="#">Tecnología</a></li>
+                                <li class="header__sub-item"><a href="#">Niños</a></li>
+                                <li class="header__sub-item"><a href="#">Reseñas</a></li>
+                                <li class="header__sub-item"><a href="#">Entretenimiento</a></li>
+                                <li class="header__sub-item"><a href="#">Curiosidades</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="header__menu">
+                        <li class="header__menu-item"><a href="#">Perfil</a></li>
+                        <li>
+                            <form action="#" class="header__form">
+                                <input class="header__search" type="text" placeholder=" Buscar ">
+                            </form>
+                        </li>
+                    </ul>
+                    <form action="#" class="header__mobile-form">
+                        <input class="header__search" type="text" placeholder="Поиск по блогу">
+                    </form>
+                </div>
+            </header>
+            <div class="main">
+
+                <div class="search">
+                    <div class="container">
+                        <div class="search__body">
+                            <form action="#" class="search__form">
+                                <input class="search__input" type="text" name="search-bar" id="search-bar"
+                                    placeholder="Напишите что-нибудь">
+                                <button class="search__photo-btn">
+                                    <img src="/assets/icons/photo.svg">
+                                </button>
+                                <button class="search__text-btn">
+                                    <img src="/assets/icons/search-arrow.png">
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="container">
+                        <div class="blog-card__body">
+                            <img src="/assets/images/cont_1.jpg" class="blog-card__photo">
+                            <p class="blog-card__photo-text">Foto de perfil de Samuel David con su madre Paula la
+                                derecha</p>
+                            <div class="blog-card__description">
+                                <h4 class="blog-card__title">Pensaban que una madre de 47 años era la novia de su hijo.
+                                    Ella revela el secreto de su juventud</h4>
+                                <p class="blog-card__text">La chica pensó que era una excusa ridícula, pero cuando miró
+                                    detalladamente el perfil de Samuel, descubrió que no le
+                                    estaba mintiendo. Había varias fotos tituladas "Mi madre y yo" donde podía ver la
+                                    misma belleza: su madre Paula Andrea,
+                                    de 47 años. Resultó ser que no era la primera vez que confundían a Paula con la
+                                    novia de su hijo, y después la
+                                    bombardeaban con preguntas sobre cómo se las apañaba para verse dos veces más joven.
+                                    Muchos sospechaban que su aspecto
+                                    era producto de una cirugía plástica, pero en realidad su secreto era muy diferente.
+                                </p>
+                            </div>
+                            <img src="/assets/images/cont_2.jpg" class="blog-card__photo">
+                            <p class="blog-card__photo-text">A la izquierda, Paula de 28 años, con Samuel de 3 años. A
+                                la derecha, el 47 cumpleaños de Paula</p>
+                            <div class="blog-card__description">
+                                <p class="blog-card__text"><b>— Paula, a juzgar por las fotos, no cambiaste nada en los
+                                        últimos 20 años. Me gustaría hacerte una pregunta, aunque
+                                        probablemente ya estés cansada de responderla: ¿cómo lo lograste?</b>
+                                </p>
+                                <p class="blog-card__text">— En primer lugar, permíteme darte las gracias, me voy a
+                                    poner roja y todo. Es cierto que cambie, ahora mi estilo y mi
+                                    forma de vestir es definitivamente mejor. En segundo lugar, tengo suerte: estoy
+                                    casada con un
+                                </p>
+                                <p class="blog-card__text"><b>— Entonces, ¿la razón por la que te ves tan linda y joven
+                                        es completamente suya?</b>
+                                </p>
+                                <p class="blog-card__text">— Por supuesto. Es un especialista, un médico. Simplemente
+                                    sigo sus recomendaciones.
+                                </p>
+                                <p class="blog-card__text"><b>— Si no es un secreto, ¿cuáles son esas
+                                        recomendaciones?</b>
+                                </p>
+                                <p class="blog-card__text">— Las reglas clásicas que habrás escuchado innumerables
+                                    veces: un buen sueño y una alimentación adecuada, pero sería una
+                                    mentira si te dijera que es suficiente. Mi marido es un especialista licenciado que
+                                    trabaja en colaboración con
+                                    laboratorios. Hace unos 10 años, fue el primero en desarrollar una fórmula
+                                    rejuvenecedora llamada <b><a href="#">Oxys</a></b> . Yo fui la
+                                    primera voluntaria en participar en los ensayos clínicos. En ese momento, tenía 37
+                                    años y, por supuesto, ya tenía
+                                    arrugas, manchas pigmentadas, etc.
+                                </p>
+                            </div>
+                            <img src="/assets/images/cont_3.jpg" class="blog-card__photo">
+                            <p class="blog-card__photo-text">A los 47 años, Paula luce 20 años más joven gracias a una
+                                fórmula desarrollada por su marido dermatólogo</p>
+                            <div class="blog-card__description">
+                                <p class="blog-card__text"><b>— ¿Quieres decir que tu marido desarrolló el producto
+                                        especialmente para ti?</b>
+                                </p>
+                                <p class="blog-card__text">— Al principio, sí. Al verme en el espejo, estaba más y más
+                                    molesta con el paso de los días y seguía quejándome de que
+                                    mi marido era dermatólogo y que no podía hacer nada por el marchitamiento de mi
+                                    piel. Para mí, las inyecciones de
+                                    belleza no eran una opción. Como esposa de un médico, era plenamente consciente de
+                                    las consecuencias de insertar agentes
+                                    químicos debajo de la piel. Además, tengo un miedo terrible a las agujas, así que la
+                                    fórmula que desarrolló fue un
+                                    acierto en la diana por varias razones: en primer lugar, porque tendría una mujer
+                                    joven y linda, en segundo lugar,
+                                    porque dejaría de quejarme a él y, en tercer lugar, porque era una especie de
+                                    desafío: hacía tiempo que deseaba comenzar
+                                    a desarrollar su propio producto porque en el mercado de los cosméticos no había
+                                    nada que cumpliera plenamente con sus
+                                    requisitos.
+                                </p>
+                                <p class="blog-card__text"><b>— ¿El producto dio buenos resultados inmediatamente?</b>
+                                </p>
+                                <p class="blog-card__text">— La fórmula fue probada y ajustada varias veces, pero los
+                                    primeros resultados fueron muy reveladores solamente después
+                                    de la segunda o tercera prueba. <span class="red-text">Me aplicaba la producto cada
+                                        día durante un mes y, una bonita mañana, al mirarme en el
+                                        espejo, me di cuenta de que mis arrugas habían desaparecido y que el tono de mi
+                                        piel se había vuelto uniforme. Desde
+                                        entonces, desde hace 10 años, mi piel se ve como la ves.</span>
+                                </p>
+                                <p class="blog-card__text"><b>— Dr. Orozco, cuéntenos cómo logró desarrollar una fórmula
+                                        que da resultados tan notables y por qué casi nadie la
+                                        conoce.</b>
+                                </p>
+                                <p class="blog-card__text">— Para mí, como especialista, no hay nada complicado en esta
+                                    fórmula: simplemente hay que saber cómo está construido el
+                                    cuerpo humano y las funciones de la piel. En cuanto a su segunda pregunta, este
+                                    producto es muy conocida: yo se la
+                                    recomiendo a mis pacientes, y estos a sus amigos, etc. Pero debe tener en cuenta que
+                                    el mercado moderno está lleno de
+                                    productos cosméticos. Las grandes empresas invierten enormes cantidades de dinero en
+                                    marketing y publicidad, y es
+                                    imposible romper el ruido de información que generan.
+                                </p>
+                                <p class="blog-card__text"><b>— Acaba de mencionar que hay que saber cómo funciona la
+                                        piel humana. ¿Puede explicarnos este proceso con palabras
+                                        sencillas?</b>
+                                </p>
+                                <p class="blog-card__text">— A partir de los 25 años, las personas comienzan a perder
+                                    cada año aproximadamente el 1% del contenido de colágeno en
+                                    la piel, que es uno de los "bloques de construcción" de la epidermis. Esto conduce a
+                                    la desorganización de su
+                                    estructura, es decir, la estructura de la piel se altera. Además, se ralentizan los
+                                    procesos de regeneración de la piel
+                                    y de todo el organismo. El nuevo material de construcción se fabrica en cantidades
+                                    menores, mientras que el antiguo se
+                                    descompone y no se restaura. Esto conduce a una pérdida de elasticidad y, por lo
+                                    tanto, a la flacidez de la piel, a la
+                                    pérdida de volumen y, finalmente, a la formación de arrugas profundas.
+                                </p>
+                                <p class="blog-card__text"><b>— ¿Y cómo funciona su fórmula?</b>
+                                </p>
+                                <p class="blog-card__text">— Si el cuerpo no puede producir colágeno, hay que ayudarle.
+                                    Es por eso que la fórmula está enriquecida con colágeno
+                                    adicional, pero como sabrá, el colágeno adicional solo afecta a las consecuencias
+                                    del problema, y nosotros ​​tenemos que
+                                    lidiar con su causa: estimular la síntesis de nuevo colágeno y la acumulación de
+                                    fibras de colágeno.
+                                </p>
+                                <p class="blog-card__text">Dedicamos mucho tiempo a buscar la mejor solución, y en la
+                                    primera versión de la fórmula utilizamos "elementos de
+                                    juventud" sintéticos: colágeno, ácido hialurónico y elastina. Sin embargo, los
+                                    resultados de las pruebas demostraron que
+                                    no producen el resultado deseado. Así que decidimos sustituirlos por un producto que
+                                    estimula la producción natural de
+                                    estos elementos. Estos ingredientes eran extracto de uva y antioxidantes.
+                                </p>
+                                <p class="blog-card__text">Otras pruebas demostraron que el extracto de uva y los
+                                    antioxidantes no sólo estimulan la producción de colágeno, es
+                                    decir, restauran la elasticidad de la piel y alisan las arrugas, sino que también
+                                    inhiben la producción de melanina,
+                                    responsable de la formación de manchas de la edad. En algunos casos, gracias a sus
+                                    propiedades antisépticas, el extracto
+                                    de uva elimina las manchas de la piel y el acné. En ese momento nos dimos cuenta de
+                                    que habíamos encontrado lo que
+                                    necesitábamos.
+                                </p>
+                                <p class="blog-card__text"><b>— ¿Hay otros ejemplos, además de su esposa, que puedan
+                                        demostrar la eficacia de la fórmula?</b>
+                                </p>
+                                <p class="blog-card__text">— Por supuesto. Paula fue la primera, pero después de hacer
+                                    todas las pruebas de laboratorio, pusimos la producto en
+                                    producción. Yo, por mi parte, comencé a recomendarla a mis pacientes, y ellos, a su
+                                    vez, la recomendaban a familiares y
+                                    amigos. <span class="red-text">
+                                        Su experiencia ha demostrado que incluso las mujeres mayores de 65 años pueden
+                                        deshacerse de las arrugas
+                                        faciales, resolviendo el problema de la sequedad y la flacidez de la piel.
+                                    </span>
+                                </p>
+                            </div>
+                            <img src="/assets/images/cont_5.jpg" class="blog-card__photo">
+                            <img src="/assets/images/cont_6.jpg" class="blog-card__photo">
+                            <img src="/assets/images/cont_7.jpg" class="blog-card__photo">
+                            <img src="/assets/images/cont_8.jpg" class="blog-card__photo">
+                            <p class="blog-card__photo-text">Fotos de las pacientes de Rogelio Orozco antes y después de
+                                usar Oxys</p>
+                            <div class="blog-card__description">
+                                <p class="blog-card__text"><b>— Dice que los poderosos gigantes de productos cosméticos
+                                        dificultan su entrada al mercado. ¿Cómo se comercializa su
+                                        producto? ¿Dónde se puede comprar?</b>
+                                </p>
+                                <p class="blog-card__text">— Por ahora, lamentablemente, solo se vende en nuestra web
+                                    oficial. Esperamos que en el futuro podamos llegar a los
+                                    estantes de las farmacias y tiendas mientras seguimos negociando, pero esta
+                                    situación beneficia a los compradores: dado
+                                    que la producto no se comercializa en nuestro país y no la publicitamos entre los
+                                    consumidores como parte de un programa
+                                    de marketing, a menudo llevamos a cabo promociones limitadas con descuentos.
+                                </p>
+                            </div>
+                            <div class="blog-card__footer">
+                                <div class="blog-card__detail">
+                                    <p class="blog-card__date"><svg aria-hidden="true"
+                                            class="css-47d2zd-StyledIcon e6m7o990" focusable="false" height="1em"
+                                            viewBox="0 0 32 32" width="1em">
+                                            <path d="M17 15.4V6h-2v10.6l8.8 5.1 1-1.8-7.8-4.5z"></path>
+                                            <path
+                                                d="M16 4A12 12 0 1 1 4 16 12 12 0 0 1 16 4m0-4a16 16 0 1 0 16 16A16 16 0 0 0 16 0z">
+                                            </path>
+                                        </svg>21.06.2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/js/app.js"></script>
+</body>
+
+</html>
